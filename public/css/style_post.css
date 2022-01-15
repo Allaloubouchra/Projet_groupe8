@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Noto+Sans&display=swap');
+*{ margin:0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+   list-style: none;  
+
+}
+.active{
+    color:#5D7052 ;
+    text-decoration: under line;
+    font-weight: bold;
+}
+body, html{
+    overflow-x: hidden;
+    background-color:#E3CD8B ;
+    background-image:url(/img/fond.png);
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+    color: whitesmoke;
+    background-color:#C18845;
+
+}
+.navbar h1{
+    font-size: 5vmin;
+    font-family: Rockwell ;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+
+}
+.nav-links li{
+    margin: 0 30px;
+
+}
+footer{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+    padding-top: 40px;
+    background-color: white;
+}
+footer h2{
+    font-size: 20px;
+    margin-left:600px;
+}
+
+.ctn{
+    padding: 8px 15px;
+    background:#5D7052 ;
+    border-radius: 30px;
+    color:whitesmoke;
+    font-size: 20px;
+}
+.container{
+  margin-top:130px;
+  margin-left: 500px;
+  width:500px;
+  height:500px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 10px;
+  transition: height 0.2s ease;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.container .wrapper{
+  width: 1000px;
+  display: flex;
+
+}
+.container .wrapper section{
+  width: 500px;
+  background: #fff;
+ 
+  margin-left: -20px;
+  margin-top: -20px;
+}
+.container img{
+  cursor: pointer;
+}
+.container .post{
+  transition: margin-left 0.18s ease;
+}
+
+.post header{
+  font-size: 22px;
+  font-weight: 600;
+  padding: 17px 0;
+  text-align: center;
+  border-bottom: 1px solid #bfbfbf;
+}
+.post form{
+  margin: 20px 25px;
+}
+
+.post form .content .details{
+  margin: -3px 0 0 12px;
+}
+form .content .details p{
+  font-family:'Dancing Script', cursive ;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: -30px;
+}
+
+form :where(textarea, button, input){
+  width: 100%;
+  outline: none;
+  border: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+form textarea {
+  resize: none;
+  font-size: 18px;
+  margin-top: 30px;
+  min-height: 100px;
+  margin-left:30px ;
+}
+.post .form-title{
+  font-size: 20px;
+  margin-top: 10px;
+  height: 30px;
+  width: 200px;
+  font-family: 'Noto Sans', sans-serif;
+
+
+}
+
+
+form textarea:focus::placeholder{
+  color: #b3b3b3;
+}
+form button{
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 53px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #BCC0C4;
+  cursor: no-drop;
+  border-radius: 7px;
+  background: #e2e5e9;
+  transition: all 0.3s ease;
+}
+form textarea:valid ~ button{
+  color: #fff;
+  cursor: pointer;
+  background: #4599FF;
+}
+form textarea:valid ~ button:hover{
+  background: #1a81ff;
+}
+.upload-images{
+  font-size: 16px;
+  background: lightgray;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px white;
+  height: 60px;
+  width: 350px;
+  outline: none;
+}
+::-webkit-file-upload-button{
+  color: white;
+  background:#1a81ff;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 0 1px 1px white;
+  outline: none;
+}

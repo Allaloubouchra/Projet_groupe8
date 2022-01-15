@@ -1,0 +1,175 @@
+*{ margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rockwell ;
+ 
+ }
+
+ul{
+    list-style: none;  
+ 
+ }
+ .active{
+     color:#5D7052 ;
+     text-decoration: under line;
+     font-weight: bold;
+ }
+
+ .explore-content .ctn {
+    margin-top: 40px ;
+
+}
+
+.navbar{
+    position: center;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+    color: whitesmoke;
+    background-color:#C18845;
+
+}
+.navbar h1{
+    font-size: 5vmin;
+    font-family: Rockwell ;
+    margin-left: 9px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+
+}
+.nav-links li{
+    margin: 0 30px;
+
+}
+
+.ctn{
+    padding: 8px 15px;
+    background:#5D7052 ;
+    border-radius: 30px;
+    color:whitesmoke;
+    font-size: 20px;
+}
+main{
+    width: 100%;
+    float: right;
+    height: 100vh;
+    background-image: url('../img/ph4.jpeg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.login-box{
+    width: 850px;
+    height: 74vh;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    margin-top: 4%;
+    margin-left: 19%;
+    
+}
+
+ .login-box span{
+    margin-top: 2px;
+    margin-left: 35%;
+    font-size: 50px;
+    cursor: pointer;
+    font-family: Rockwell;
+}
+h4,input{
+font-size: 20px;
+
+}
+h4,b{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+b{
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+
+input{
+    width: 10px;
+    height: 7px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    border-bottom: solid #fff;
+    color: #000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: Rockwell ;
+    
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+input:hover{
+    border-bottom: solid #000;
+}
+::placeholder{
+    color: #000;
+}
+
+.p{
+    margin-left: 5%;
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border-top: none;
+
+}
+
+button::after{
+    background: #000;
+    transform: scale(0);
+    transition: transform 0.15s;
+
+}
+
+button{
+    padding: 8px 15px;
+    background:#5D7052 ;
+    border-radius: 30px;
+    color:whitesmoke;
+    font-size: 20px;
+    margin-left: 370px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+   
+button:hover{
+    color: #5D7052;
+    background: whitesmoke;
+
+}
+footer {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+    padding-top: 40px;
+    background-color: white;
+}
+
+footer p{
+    font-size: 20px;
+    margin-left: 550px;
+}
+
+
+
